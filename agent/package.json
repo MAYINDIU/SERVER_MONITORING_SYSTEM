@@ -1,0 +1,15 @@
+{
+  "name": "server-monitor-agent",
+  "version": "1.0.0",
+  "description": "Lightweight monitoring agent – collects CPU/RAM/Disk/Network/Temperature every 10 s and pushes to the monitoring server",
+  "main": "agent.js",
+  "private": true,
+  "scripts": {
+    "start": "node agent.js",
+    "simulate": "node simulate.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "systeminformation": "^5.23.5"
+  }
+}
